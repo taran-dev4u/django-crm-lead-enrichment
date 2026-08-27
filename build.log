@@ -19,3 +19,4 @@ commit: refactor(types): add complete Python type annotations across public API 
 commit: docs: document Django-CRM upstream issue #636 specifications
 commit: ci: add Python 3.11/3.12 compatibility matrix in CI
 commit: perf: vectorize string normalization lookups
+commit: feat(exceptions): add safe boundary guards for None and malformed input dictionaries
