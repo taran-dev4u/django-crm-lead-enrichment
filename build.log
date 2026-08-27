@@ -1,2 +1,3 @@
 commit: feat(engine): add E.164 phone normalization rules with international dialing prefix support
 commit: feat(engine): implement lowercase email canonicalization and domain stripping
+commit: feat(engine): add company suffix pruning for corporate entity matching
