@@ -23,3 +23,4 @@ commit: feat(exceptions): add safe boundary guards for None and malformed input 
 commit: test(edge_cases): add unit tests for missing, None, and empty field dictionaries
 commit: docs: finalize README with upstream badges and MIT license
 commit: release: v1.0.0 Django-CRM Duplicate Detection & Entity Matching Engine
+sync pulse
