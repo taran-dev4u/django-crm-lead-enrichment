@@ -16,3 +16,4 @@ commit: feat(audit): add confidence level classification (HIGH / MEDIUM) based o
 commit: feat(reconciliation): add support for activity log and note rebinding
 commit: test(reconciliation): verify activity list union without duplicate entries
 commit: refactor(types): add complete Python type annotations across public API methods
+commit: docs: document Django-CRM upstream issue #636 specifications
