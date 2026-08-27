@@ -6,3 +6,4 @@ commit: feat(similarity): add configurable similarity threshold configuration
 commit: feat(merge): implement non-destructive field reconciliation preserving master data
 commit: feat(merge): add tag and list attribute aggregation across duplicate records
 commit: test(detection): add unit test coverage for exact email and phone matching
+commit: test(detection): add fuzzy company name similarity validation tests
