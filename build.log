@@ -8,3 +8,4 @@ commit: feat(merge): add tag and list attribute aggregation across duplicate rec
 commit: test(detection): add unit test coverage for exact email and phone matching
 commit: test(detection): add fuzzy company name similarity validation tests
 commit: test(normalization): verify E.164 phone formatting edge cases
+commit: test(merge): add comprehensive master record reconciliation test suite
