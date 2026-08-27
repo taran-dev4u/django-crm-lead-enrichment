@@ -22,3 +22,5 @@ Production-grade entity matching, fuzzy duplicate detection, and automated recor
 - **Upstream Repository:** [MicroPyramid/django-crm](https://github.com/MicroPyramid/django-crm)
 - **Target Issue:** [#636 — Add Duplicate Detection and Merge](https://github.com/MicroPyramid/django-crm/issues/636)
 - **Architecture:** Django REST Framework, Python, Pytest.
+
+<!-- sync: 1787836791.8581748 -->
