@@ -4,3 +4,4 @@ commit: feat(engine): add company suffix pruning for corporate entity matching
 commit: feat(similarity): integrate Levenshtein sequence matching for fuzzy name detection
 commit: feat(similarity): add configurable similarity threshold configuration
 commit: feat(merge): implement non-destructive field reconciliation preserving master data
+commit: feat(merge): add tag and list attribute aggregation across duplicate records
