@@ -18,3 +18,4 @@ commit: test(reconciliation): verify activity list union without duplicate entri
 commit: refactor(types): add complete Python type annotations across public API methods
 commit: docs: document Django-CRM upstream issue #636 specifications
 commit: ci: add Python 3.11/3.12 compatibility matrix in CI
+commit: perf: vectorize string normalization lookups
