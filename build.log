@@ -11,3 +11,4 @@ commit: test(normalization): verify E.164 phone formatting edge cases
 commit: test(merge): add comprehensive master record reconciliation test suite
 commit: ci: add GitHub Actions workflow running automated unit tests on push
 commit: docs: add architectural overview, flow diagrams, and upstream alignment documentation
+commit: refactor(detector): optimize candidate loop efficiency for large lead datasets
