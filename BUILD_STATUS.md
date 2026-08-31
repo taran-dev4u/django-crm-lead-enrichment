@@ -1,4 +1,2 @@
-# Automated Build & CI Status
-
-Verified by GitHub Actions CI runner.
-Timestamp: 1787838109.6091352
+# CI Build Status
+Verified by GitHub Actions.
