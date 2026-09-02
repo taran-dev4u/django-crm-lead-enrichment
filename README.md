@@ -1,30 +1,39 @@
-# Django-CRM — Duplicate Detection, Entity Matching & Data Quality Engine
+# Django-CRM — Enterprise Multi-Tenant CRM Engine & REST API Extensions
 
-[![CI](https://github.com/taran-dev4u/django-crm-lead-enrichment/actions/workflows/ci.yml/badge.svg)](https://github.com/taran-dev4u/django-crm-lead-enrichment/actions/workflows/ci.yml)
-[![Upstream Repository](https://img.shields.io/badge/Django--CRM-1000%2B%20%E2%AD%90%20Open%20Source-orange?logo=github)](https://github.com/MicroPyramid/django-crm)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-Production-grade entity matching, fuzzy duplicate detection, and automated record reconciliation engine for [Django-CRM](https://github.com/MicroPyramid/django-crm) (1,000+ ⭐).
-
----
-
-## 🎯 Key Features
-
-1. **Multi-Vector Duplicate Detection:** Matches leads, contacts, and accounts across normalized email addresses, E.164 phone formats, and corporate suffix pruning.
-2. **Levenshtein Fuzzy Matching:** Configurable similarity scoring across fuzzy company names and contributor variations.
-3. **Lossless Record Reconciliation:** Preserves primary master record identifiers while aggregating activities, tags, notes, and missing attributes.
-4. **100% Deterministic Test Coverage:** Backed by automated unit test suites in pytest.
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-5.x%20%7C%20DRF-092E20.svg)](https://www.djangoproject.com/)
+[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue.svg)](https://www.postgresql.org/)
+[![Open Source](https://img.shields.io/badge/Open%20Source-1000%2B%20%E2%AD%90%20CRM-orange.svg)](https://github.com/MicroPyramid/Django-CRM)
 
 ---
 
-## 🏛️ Ecosystem Alignment
+## 📌 Executive Summary & Open Source Contributions
 
-- **Upstream Repository:** [MicroPyramid/django-crm](https://github.com/MicroPyramid/django-crm)
-- **Target Issue:** [#636 — Add Duplicate Detection and Merge](https://github.com/MicroPyramid/django-crm/issues/636)
-- **Architecture:** Django REST Framework, Python, Pytest.
+**Django-CRM** is a major open-source customer relationship management (CRM) platform built on Django and Django REST Framework (DRF), featuring lead tracking, account management, contact histories, sales opportunities, and case ticketing.
 
-<!-- sync: 1787836791.8581748 -->
+This repository features full-stack extensions, lead deduplication algorithms, and cloud attachment connectors developed by **Taran Mamidala**.
 
-<!-- priority_sync: 1787836819.57119 -->
+---
 
-<!-- permanent_lock: 1787962109.3009481 -->
+## 🚀 Key System Capabilities
+
+- **Fuzzy Lead Deduplication:** String similarity and email domain matching preventing duplicate contact creations.
+- **RESTful API Extensions:** Standardized DRF serializers with role-based permission gating.
+- **Multi-Tenant Data Isolation:** Tenant-scoped querysets ensuring customer privacy.
+
+---
+
+## 📂 Repository Structure
+
+```
+django-crm-lead-enrichment/
+├── src/crm_enrichment/              # Duplicate detection algorithms and API serializers
+├── tests/                           # Unit tests for multi-tenant lead management
+└── README.md                        # Documentation
+```
+
+---
+
+## 👨‍💻 Author & Contributor
+- **Author:** Taran Mamidala
+- **Upstream Repository:** [MicroPyramid/Django-CRM](https://github.com/MicroPyramid/Django-CRM)
